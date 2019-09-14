@@ -1,0 +1,159 @@
+
+.embed-container {
+    position: relative;
+      padding-bottom: 56.25%;
+      height: 0;
+      overflow: hidden;
+      max-width: 100%;
+  }
+  .embed-container img,
+  .embed-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+    /* container information of video */
+    .lead.text{
+      color: #919191;
+      width: 40%;
+    }
+    #info-saison-episode{
+      font-style: italic;
+      color: #7CD8FE;
+    }
+    .jumbotron.jumbotron-fluid p{
+      color: #fff;
+      font-weight: 400;
+    }
+    #watch{
+      font-weight: 800;
+      background-color: #7CD8FE;
+      border: none;
+      border-radius: 5px;
+    }
+    #playlist{
+      font-weight: 800;
+      background: transparent;
+      border: 1.5px solid #7CD8FE;
+      border-radius: 5px;
+    }
+    
+    #playlist:hover{
+      background-color: #7CD8FE;
+      color: #919191;
+    }
+    p{
+      font-size: 1rem;
+    }
+    h3{
+      font-size: 3.2rem;
+      font-weight: 700;
+      color: rgb(126, 56, 56);
+    }
+    .col-md3.miniature:hover{
+      transition: all 200ms ease-in;
+      transform: scale(1.5);
+    }
+    .col-md3.miniature:hover .message-freemium{
+      visibility: visible;
+    
+    }
+    .message-freemium{
+      background-color: rgba(15, 15, 15, 0.85);
+      position: relative;
+      top: -40px;
+      font-size: 0.7rem;
+      color: #7CD8FE;
+      overflow: hidden;
+    }
+    
+    .col-md4.cover1:hover .message-freemium, .col-md4.cover2:hover .message-freemium{
+      visibility: visible;
+    }
+    .btn.btn-light.btn-sm.info{
+      background: none;
+      border: none;
+      color: #7CD8FE;
+      margin-left: 35px;
+    }
+    .d-flex{
+        position:absolute;
+        top: 30px;
+        left: 70px;
+    }
+    /* 
+    ##Device = Tablets, Ipads (landscape)
+    ##Screen = B/w 320px to 767px
+  */
+    @media (min-width: 240px) and (max-width: 767px){
+      .d-flex{
+        font-size: 8px;
+        position: absolute;
+        top: 40px;
+        left: 65px;
+    }
+    .btn-primary{
+      position: absolute;
+      font-size: 10px;
+      top: 90px;
+      left: 50px;
+    }
+    .type-serie{
+      font-size: 8px;
+      position: absolute;
+      top: 80px;
+      left: 60px;
+      width: 200px;
+    }
+    .lead.text{
+      position: absolute;
+      top:30px;
+      width: 200px;
+      font-size: 8px;
+    }
+    
+    #watch {
+      position: absolute;
+      top: 85px;
+      font-size: 8px;
+      width: 80px;
+      height: 23px;
+      border-radius: 3px;
+  }
+  #info-saison-episode {
+    font-style: italic;
+    color: #7CD8FE;
+    position: absolute;
+    font-size: 10px;
+    left: 60px;
+    top: 15px;
+    width: 100px;
+    }
+  }
+  /* 
+    ##Device = Tablets, Ipads (landscape)
+    ##Screen = B/w 768px to 1024px
+  */
+  @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape){
+    .d-flex {
+      position: absolute;
+      top: 225px;
+      left: 70px;
+      font-size: 12px;
+    }
+  }
+  /* 
+    ##Device = Tablets, Ipads (landscape)
+    ##Screen = B/w 1025px to 1280px
+  */
+  @media (min-width: 1025px) and (max-width: 2560px){
+    .d-flex {
+      position: absolute;
+      top: 40%;
+      left: 70px;
+      font-size: 12px;
+    }
+  
+  } 

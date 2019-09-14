@@ -1,0 +1,80 @@
+.col-md6.illustration{
+    width: 50%;
+    height: 100vh;
+    background-image: url('assets/img/profile.png');
+    background-repeat: no-repeat;
+    background-size: 75%;
+    background-position-x: center;
+    background-position-y: center;
+
+}
+.col-md6.infos h3{
+    font-size: 1.7rem;
+    color: #7CD8FE;
+}
+.col-md6.infos h4{
+    font-size: 1.5rem;
+    color: #C9C6F5;
+}
+.col-md6.infos{
+    width: 50%;
+    height: 100vh;
+}
+.col-md6.infos .info-user, .col-md6.infos button{
+    margin-left: 90px;
+    margin-top: 50px;
+} 
+.col-md6.infos h3,.col-md6.infos h4{
+    text-align: center;
+}
+.info-user{
+    
+    color: #D3D3D3;
+}
+.info-user p {
+    font-size: 1.4rem;
+}
+.info-user #infos-table{
+    color: #7A7A7A;
+}
+#edit-user-info{
+    font-weight: 700;
+    padding: 5;
+
+}
+/* --------------- E D I T   P R O F I L ------------*/
+.col-md6.illustration.edit{
+    width: 50%;
+    height: 100vh;
+    background-color: #fff;
+    background-image: url(assets/img/undraw_choice_9385.svg);
+    background-repeat: no-repeat;
+    background-size: 75%;
+    background-position-x: center;
+    background-position-y: center;
+
+}
+#edit{
+    margin-left: 50px    ;
+}
+.info-user.edit input{
+    width: 250px;
+    background-color: #7A7A7A;
+    border: none;
+}
+#subscription{
+    background-color: #2ECC71;
+    color: #fff;
+}
+.form-group.col-md-4.offset-2 a:hover{
+    text-decoration: unset;
+}
+#edit-user-info-edit{
+    position: relative;
+    font-weight: 700;
+    padding: 5;
+    width: 110px;
+    margin: 0;
+    margin-right: 85px;
+
+}

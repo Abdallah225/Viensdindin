@@ -1,0 +1,30 @@
+:root {
+    --input-padding-x: 1.5rem;
+    --input-padding-y: .75rem;
+  }
+  .container{
+      font-size: 1rem;
+      font-weight: 600;
+      text-align: center;
+      margin-top: 20px;
+      color: #CACACA;
+  }
+  .card-signin {
+      background-color: #595959;
+    border: 0;
+    border-radius: 2rem;
+    box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+  }
+  
+  .card-signin .btn {
+    font-size: 80%;
+    letter-spacing: .1rem;
+    font-weight: bold;
+    padding: 1rem;
+    transition: all 0.2s;
+  }
+  a{
+      color:#FFF;
+  }
+      
