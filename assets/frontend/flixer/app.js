@@ -21,12 +21,12 @@ $('nav').removeClass('scrolled');
 // click change backround color navbar
 clicked = true;
 $(document).ready(function(){
-    $(".navbar").click(function(){
+    $(".navbar-toggler").click(function(){
         if(clicked){
-            $(this).css('background-color', 'rgba(0, 0, 0, 0.8)');
+            $(".navbar").css('background-color', 'rgba(0, 0, 0, 0.8)');
             clicked  = false;
         } else {
-            $(this).css('background-color', 'rgba(0, 0, 0, 0)');
+            $(".navbar").css('background-color', 'rgba(0, 0, 0, 0)');
             clicked  = true;
         }   
     });
