@@ -5,8 +5,9 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<!-- links icon  -->
-    <link rel="shortcut icon" href="<?php echo base_url();?>assets/global/favicon.png">
+	<!-- Favicons -->
+	<link rel="shortcut icon" href="<?php echo base_url();?>assets/global/favicon.png" type="image/x-icon">
+  	<link rel="apple-touch-icon" href="<?php echo base_url();?>assets/global/favicon.png">
 	<!--Google Fonts-->
     <link href="https://fonts.googleapis.com/css?family=Nunito:300,300i,400,400i,600,600i,700,700i,800,900" rel="stylesheet">
     <!-- links boostrap 4 -->
